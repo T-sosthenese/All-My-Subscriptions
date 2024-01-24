@@ -1,0 +1,90 @@
+/* Reset some default margin and padding for the body */
+body {
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Light body background */
+}
+
+/* Style the container for the form */
+.form-container {
+    max-width: 400px;
+    margin: 50px auto; /* Center the form on the page */
+    background-color: #fff; /* White background for the form container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+}
+
+/* Style the heading for the product name and offer */
+.product-heading {
+    color: #471869; /* Purple color for the heading */
+    text-align: center;
+}
+
+/* Style the paragraph describing the product and offer benefits */
+.offer-paragraph {
+    color: #333; /* Dark text color */
+    margin-top: 10px;
+}
+
+/* Style the form elements */
+form {
+    margin-top: 20px;
+}
+
+/* Style the label for the email input */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Dark text color for labels */
+}
+
+/* Style the email input field */
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px;
+}
+
+/* Style the name input field */
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px;
+}
+
+/* Style the "Get My 15% off" button */
+.offer-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #471869; /* Purple color for the button */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for better user experience */
+
+    /* Hover effect */
+    &:hover {
+        background-color: #2e0c3e; /* Darker purple on hover */
+    }
+}
+/* CSS for formatting the image using the class */
+.formatted-image {
+    width: 300px; /* Make the image take up the full width of its container */
+    max-width: 400px; /* Set a maximum width to prevent the image from becoming too large on larger screens */
+    height: auto; /* Maintain the aspect ratio of the image */
+    display: block; /* Remove any default inline spacing */
+    margin: 20px auto; /* Center the image with some margin at the top and bottom */
+    border: 3px solid #471869;
+    border-radius: 50%; /* Add a subtle rounded border to the image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+}
